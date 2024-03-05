@@ -35,9 +35,12 @@ class _NavBarItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text(
-      title,
-      style: TextStyle(fontSize: 18),
+    return MouseRegion(
+      cursor: SystemMouseCursors.click,
+      child: Text(
+        title,
+        style: const TextStyle(fontSize: 18),
+      ),
     );
   }
 }

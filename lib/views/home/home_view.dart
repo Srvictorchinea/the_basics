@@ -9,7 +9,7 @@ class HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       backgroundColor: Colors.white,
       body: CenteredView(
         child: Column(
@@ -21,7 +21,9 @@ class HomeView extends StatelessWidget {
                   CourseDetails(),
                   Expanded(
                     child: Center(
-                      child: CallToAction(title: 'Join Course'),
+                      child: MouseRegion(
+                          cursor: SystemMouseCursors.click,
+                          child: CallToAction(title: 'Join Course')),
                     ),
                   ),
                 ],
