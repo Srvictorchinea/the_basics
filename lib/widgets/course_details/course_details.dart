@@ -23,7 +23,7 @@ class CourseDetails extends StatelessWidget {
             height: 30,
           ),
           Text(
-            'Flutter is an open-source UI software development toolkit created by Google. It is used to build natively compiled applications for mobile, web, and desktop from a single codebase. Flutter enables developers to create high-performance, visually appealing, and fast user interfaces across different platforms.',
+            'Flutter is an open-source UI software development toolkit created by Google. It is used to build natively compiled applications for mobile, web, and desktop from a single codebase. Flutter enables developers to create high-performance.',
             style: TextStyle(
               fontSize: 21,
               height: 1.7,
