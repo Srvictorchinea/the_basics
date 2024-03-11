@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:the_basics/layout_template/layout_template.dart';
 import 'package:the_basics/locator.dart';
-import 'package:the_basics/views/home/home_view.dart';
 
 void main() {
   setupLocator();
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
           fontFamily: 'Poppins',
         )
       ),
-      home: const HomeView(),
+      home: LayoutTemplate(),
     );
   }
 }
